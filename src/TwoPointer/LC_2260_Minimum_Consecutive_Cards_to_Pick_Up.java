@@ -10,7 +10,7 @@ public class LC_2260_Minimum_Consecutive_Cards_to_Pick_Up {
         int min = n+1;
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         while(j < n){
-            if(hashMap.containsKey(nums[j])){
+            if(hashMap.containsKey(nums[j])){   
                 int ans = hashMap.get(nums[j]);
                 min = Math.min(min, j- ans+1);
                 hashMap.remove(nums[i]);
