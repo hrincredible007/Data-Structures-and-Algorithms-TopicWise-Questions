@@ -6,7 +6,6 @@ public class LC_930_Binary_Subarrays_With_Sum {
     // Approach 1: T.C.: O(N), S.C.: O(N)
     public int numSubarraysWithSum(int[] nums, int goal) {
         int n = nums.length;
-        int i = 0;
         int j = 0;// 1
         int sum = 0;
         int count = 0;
