@@ -1,6 +1,6 @@
 package Sliding_Window;
 
-public class Minimum_Window_Subsequence {
+public class LP_727_Minimum_Window_Subsequence {
     public static String minWindow(String str1, String str2) {
         // Write your code here
         int n = str1.length();
