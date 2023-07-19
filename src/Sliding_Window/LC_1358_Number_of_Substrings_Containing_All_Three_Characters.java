@@ -1,6 +1,4 @@
-package TwoPointer;
-
-import java.util.HashMap;
+package Sliding_Window;
 
 public class LC_1358_Number_of_Substrings_Containing_All_Three_Characters {
     public int numberOfSubstrings(String s) {

@@ -1,4 +1,4 @@
-package TwoPointer;
+package Sliding_Window;
 
 import java.util.HashSet;
 import java.util.Set;
